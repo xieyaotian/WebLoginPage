@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.loginPage {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./images/preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginBox {
+    width: 800px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 30px 30px 30px;
+}
+
+.loginBox h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.loginBox .inputbox {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.loginBox .inputbox .input-text {
+    width: 100%;
+    height: 25px;
+    margin: 10px;
+    border: 0;
+    padding: 6px;
+    background-color: #ffffff00;
+    border-bottom: 1px solid #ffff;
+}
+
+.loginBox .inputbox .button {
+    margin-top: 50px;
+    width: 145px;
+    height: 35px;
+    color: #fff;
+    background: linear-gradient(120deg, #6e6793 0%, #3f4f82 100%);
+}
+/* 按钮点击是触发的响应 */
+.button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
